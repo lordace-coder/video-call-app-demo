@@ -729,7 +729,7 @@
 
           // Connect to WebSocket
           const wsProtocol =
-            window.location.protocol === "https:" ? "wss:" : "ws:";
+            window.location.protocol === "https:" ? "ws:" : "ws:";
           const wsHost = window.location.host;
           const wsUrl = `${wsProtocol}//${wsHost}/ws/${encodeURIComponent(
             userId
